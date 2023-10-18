@@ -1,0 +1,59 @@
+#basket {
+  .basket {
+    &--image {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      img {
+        margin-top: 30px;
+        background: rgb(28, 28, 43);
+        width: 240px;
+        height: 280px;
+        border-radius: 20px;
+      }
+      &__btn {
+        margin: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--but {
+          h1 {
+            font-size: 40px;
+            font-weight: 600;
+            font-style: initial;
+            color: rgba(60, 147, 121, 1);
+          }
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            h2 {
+              font-size: 20px;
+              font-weight: 300;
+              color: rgba(60, 147, 121, 1);
+            }
+            button {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 50px;
+              height: 20px;
+              background: rgba(60, 147, 121, 1);
+              border-radius: 13px;
+              border: none;
+              color: #fff;
+              font-weight: 800;
+              font-size: 20px;
+              transition: 0.3s;
+              margin: 8px;
+              &:hover {
+                background: rgb(7, 95, 69);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

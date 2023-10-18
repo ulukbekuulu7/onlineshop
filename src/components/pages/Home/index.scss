@@ -1,0 +1,17 @@
+#home {
+  .home {
+    &--img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div {
+        &--1 {
+          margin: 10px 0;
+        }
+      }
+    }
+    &--3 {
+      margin-right: 30px;
+    }
+  }
+}
